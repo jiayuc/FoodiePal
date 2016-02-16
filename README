@@ -1,0 +1,5 @@
+	Functional description:	
+	We want to develop a website which recommends restaurant. It is similar to a mini-Yelp. We’ll offer a search engine which takes locations, restaurant names, categories and etc. as keywords. We want to be able to rank search result based ranking of number of views. 
+	This is a useful website for finding where to eat, we’ll be targeting application towards users in the Urbana-Champaign area. We plan to get our data through Yelp’s API. 
+	Our basic features include search by keywords, creating new user account. Our possible advanced features include restaurant recommendation by comparing the similarity of restaurants and referring to  users’ view history. Another extra feature we want to add is real-time processing data using Apach Storm in order to show trending restaurants for the past week. We’ll also enable one user to search for another user by ID and ask for restaurant recommendation for two users to eat out together. Our application will accomplish this by considering the preference of both users and give the optimal list of results. 
+
