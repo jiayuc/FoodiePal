@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+	<title>New User</title>
+	<meta content="Jiayu Chen" name="author" /><!-- <link href="hw1Style.css" rel="stylesheet" type="text/css"> --><!-- <link href="hw1styleHover.css" rel="stylesheet" type="text/css"> -->
+	<style type="text/css">#label1{text-align: left; width: auto}
+		#label2{text-align: left; width: auto}
+		#label3{text-align: left; width: auto}
+		fieldset{width:720px; margin-bottom: 10px} 
+		body{font-family:calibri; font-weight: bold}
+		h1{font-size: 38px}
+	</style>
+</head>
+<body>
+<p><span style="font-size: 38px;">New User Re</span><span style="font-size: 38px;">gister here:</span></p>
+
+<form action="https://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" enctype="multipart/form-data" id="datingForm" method="post"><!--must be added if wanna submit form-->
+<fieldset><legend>Your Face</legend> <label for="photo">Your Image:</label> <input id="photo" name="fileToUpload" required="" type="file" /><br />
+<label for="photo">Image Preview:</label> <img id="preview" name="preview" /></fieldset>
+&nbsp;
+
+<fieldset><legend>Your General Details</legend> <label for="name">Name</label> <input id="name" name="name" placeholder="Your full name" required="" type="text" /><br />
+<label for="gender">Gender</label> <input id="gender" name="gender" required="" type="radio" value="gender" />Male <input id="gender" name="gender" required="" type="radio" value="gender" />Female<br />
+<label for="age">Age:</label> <input id="age" name="age" required="" type="number" value="18" /><br />
+<label for="birth">Date of birth:</label> <input id="birth" name="birth" type="date" /><br />
+<label for="color">Favorite color:</label> <input id="color" name="color" type="color" /><br />
+<label for="country">Which country:</label> <select id="country" name="country"><option id="country" value="ch">China</option><option id="country" value="un">United States</option><option id="country" value="ca">Canada</option><option id="country" value="ja">Japan</option><option id="country" value="si">Singapore</option><option id="country" value="no">no select</option> </select></fieldset>
+&nbsp;
+
+<fieldset><legend>Your Indicators</legend> <label for="height">Height:</label> <label id="short">Short </label><input id="height" name="height" type="range" /><label id="tall"><label id="tall"> Tall</label></label><br />
+<label for="salary">Salary:</label> <label id="poor">Poor </label><input id="salary" name="salary" type="range" /><label id="rich">Rich</label></fieldset>
+&nbsp;
+
+<fieldset><legend>Your Contact Information</legend> <label for="email">Email:</label> <input id="email" name="email" required="" type="email" /><br />
+<label for="mobile">Mobile:</label> <input id="mobile" name="mobile" type="tel" /><br />
+<label for="address">Address:</label><textarea id="address" name="address"></textarea><br />
+Method to contact you: <input id="email_" name="method" type="checkbox" value="email_" /> <label for="email_" id="label1">Email</label> <input id="whatsapp" name="method" type="checkbox" value="whatsapp" /> <label for="whatsapp" id="label2">Whatsapp</label> <input id="inAppChat" name="method" type="checkbox" value="inAppChat" /> <label for="inAppChat" id="label3">In-app chat</label></fieldset>
+<br />
+<input type="submit" value="submit!" /></form>
+<script src="https://www.cse.ust.hk/~rossiter/dating_web_site.js"></script></body>
+</html>

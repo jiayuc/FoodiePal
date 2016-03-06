@@ -1,0 +1,67 @@
+[05-Mar-2016 17:03:39 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 4
+[05-Mar-2016 17:03:39 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 4
+[05-Mar-2016 17:03:39 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 6
+[05-Mar-2016 17:03:39 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 6
+[05-Mar-2016 17:03:39 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 8
+[05-Mar-2016 17:03:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/foodiepal/public_html/index.php on line 9
+[05-Mar-2016 17:04:29 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 5
+[05-Mar-2016 17:04:29 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 5
+[05-Mar-2016 17:04:29 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 8
+[05-Mar-2016 17:04:29 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 8
+[05-Mar-2016 17:04:29 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 10
+[05-Mar-2016 17:04:29 America/Chicago] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/foodiepal/public_html/index.php on line 11
+[05-Mar-2016 17:04:32 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 5
+[05-Mar-2016 17:04:32 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 5
+[05-Mar-2016 17:04:32 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 8
+[05-Mar-2016 17:04:32 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 8
+[05-Mar-2016 17:04:32 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 10
+[05-Mar-2016 17:04:32 America/Chicago] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/foodiepal/public_html/index.php on line 11
+[05-Mar-2016 17:05:14 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 5
+[05-Mar-2016 17:05:14 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 8
+[05-Mar-2016 17:05:14 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 8
+[05-Mar-2016 17:05:14 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 10
+[05-Mar-2016 17:05:14 America/Chicago] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/foodiepal/public_html/index.php on line 11
+[05-Mar-2016 17:06:39 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 5
+[05-Mar-2016 17:06:39 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 8
+[05-Mar-2016 17:06:39 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 8
+[05-Mar-2016 17:06:39 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 10
+[05-Mar-2016 17:06:39 America/Chicago] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/foodiepal/public_html/index.php on line 11
+[05-Mar-2016 17:06:46 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 5
+[05-Mar-2016 17:06:46 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 8
+[05-Mar-2016 17:06:46 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 8
+[05-Mar-2016 17:06:46 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 10
+[05-Mar-2016 17:06:46 America/Chicago] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/foodiepal/public_html/index.php on line 11
+[05-Mar-2016 17:06:47 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 5
+[05-Mar-2016 17:06:47 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 8
+[05-Mar-2016 17:06:47 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 8
+[05-Mar-2016 17:06:47 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 10
+[05-Mar-2016 17:06:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/foodiepal/public_html/index.php on line 11
+[05-Mar-2016 17:07:48 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 4
+[05-Mar-2016 17:07:48 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 7
+[05-Mar-2016 17:07:48 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 7
+[05-Mar-2016 17:07:48 America/Chicago] PHP Warning:  Unexpected character in input:  '' (ASCII=11) state=0 in /home/foodiepal/public_html/index.php on line 9
+[05-Mar-2016 17:07:48 America/Chicago] PHP Parse error:  syntax error, unexpected 'die' (T_EXIT) in /home/foodiepal/public_html/index.php on line 10
+[05-Mar-2016 17:22:39 America/Chicago] PHP Fatal error:  Function name must be a string in /home/foodiepal/public_html/index.php on line 9
+[05-Mar-2016 18:32:36 America/Chicago] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/foodiepal/public_html/index.php on line 21
+[06-Mar-2016 11:36:58 America/Chicago] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/foodiepal/public_html/index.php on line 21
+[06-Mar-2016 11:37:26 America/Chicago] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, null given in /home/foodiepal/public_html/index.php on line 14
+[06-Mar-2016 11:37:26 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/foodiepal/public_html/index.php on line 17
+[06-Mar-2016 11:39:57 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/foodiepal/public_html/index.php on line 18
+[06-Mar-2016 11:42:21 America/Chicago] PHP Parse error:  syntax error, unexpected ',', expecting ']' in /home/foodiepal/public_html/index.php on line 23
+[06-Mar-2016 11:43:28 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/foodiepal/public_html/index.php on line 24
+[06-Mar-2016 11:44:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'number' (T_STRING), expecting ',' or ';' in /home/foodiepal/public_html/index.php on line 23
+[06-Mar-2016 11:45:17 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/foodiepal/public_html/index.php on line 23
+[06-Mar-2016 11:45:18 America/Chicago] PHP Parse error:  syntax error, unexpected '>' in /home/foodiepal/public_html/index.php on line 23
+[06-Mar-2016 11:46:27 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/foodiepal/public_html/index.php on line 23
+[06-Mar-2016 11:46:28 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/foodiepal/public_html/index.php on line 23
+[06-Mar-2016 11:47:03 America/Chicago] PHP Parse error:  syntax error, unexpected '<' in /home/foodiepal/public_html/index.php on line 23
+[06-Mar-2016 11:53:13 America/Chicago] PHP Warning:  fopen(counter.txt): failed to open stream: No such file or directory in /home/foodiepal/public_html/index.php on line 29
+[06-Mar-2016 11:53:13 America/Chicago] PHP Warning:  fread() expects parameter 1 to be resource, boolean given in /home/foodiepal/public_html/index.php on line 30
+[06-Mar-2016 11:53:13 America/Chicago] PHP Warning:  fseek() expects parameter 1 to be resource, boolean given in /home/foodiepal/public_html/index.php on line 33
+[06-Mar-2016 11:53:13 America/Chicago] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/foodiepal/public_html/index.php on line 34
+[06-Mar-2016 11:53:13 America/Chicago] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/foodiepal/public_html/index.php on line 35
+[06-Mar-2016 11:58:21 America/Chicago] PHP Parse error:  syntax error, unexpected '"visitor: "' (T_CONSTANT_ENCAPSED_STRING) in /home/foodiepal/public_html/index.php on line 7
+[06-Mar-2016 12:15:31 America/Chicago] PHP Warning:  include(parse.php): failed to open stream: No such file or directory in /home/foodiepal/public_html/index.php on line 3
+[06-Mar-2016 12:15:31 America/Chicago] PHP Warning:  include(): Failed opening 'parse.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/foodiepal/public_html/index.php on line 3
+[06-Mar-2016 12:15:43 America/Chicago] PHP Warning:  include(parser.php): failed to open stream: No such file or directory in /home/foodiepal/public_html/index.php on line 3
+[06-Mar-2016 12:15:43 America/Chicago] PHP Warning:  include(): Failed opening 'parser.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/foodiepal/public_html/index.php on line 3
