@@ -1,3 +1,5 @@
+haven't updated the repository but here's the link to our website: 
+foodiepal.web.engr.illinois.edu
 - Overview
 FoodiePal is a website dedicated to offering students and visitors advice on food and services. By viewing ratings and reviews as well as giving their preferences, people will be able to find just the business that they are looking for. There is also an multiple people mode, where the website can return a lists of results which best suits a group of people who may have different taste.
 - Usefulness
