@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin:0;
+	padding:0;
+	margin:0 auto;
+	font-family:Tahoma, Geneva, sans-serif;
+	color:#036;
+}
+p {
+	margin-top:10px;
+}
+span {
+	color:#033;
+}
+#preinput {
+	width:250px;
+	float:left;
+}
+.display {
+	width:90%;
+	border:1px green solid;
+	padding:1%;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+.delete {
+	float:right;
+	color:#F00;
+	font-weight:bold;
+}
+.edit {
+	float:right;
+	color:#039;
+	font-weight:bold;
+}
+#inputid {
+	width:280px;
+	padding:10px;
+}
+#inputid1 {
+	width:305px;
+	padding:10px;
+}
+
+#logout{
+  margin-left: 20px;
+}

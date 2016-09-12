@@ -34,7 +34,7 @@ $DEFAULT_LOCATION = 'San Francisco, CA';
 $SEARCH_LIMIT = 20;
 $SEARCH_PATH = '/v2/search/';
 $BUSINESS_PATH = '/v2/business/';
-$OFFSET = 220;
+$OFFSET = 0;
 /** 
  * Makes a request to the Yelp API and returns the response
  * 
@@ -112,7 +112,7 @@ function search($term, $location) {
  * @return   The JSON response from the request 
  */
 function get_business($business_id) {
-    $business_path = $GLOBALS['BUSINESS_PATH'] . urlencode($business_id);
+    $business_path = $GLOBALS['BUSINESS_PATH'] . $business_id;
     
     return request($GLOBALS['API_HOST'], $business_path);
 }
@@ -130,7 +130,7 @@ function query_api($term, $location) {
 		$business_id = $business->id;
 		$business_response = json_decode(get_business($business_id),true);
 		
-
+	/*	
 		$id=$business_response['id'];
 		$name=$business_response['name'];
 		$phone=$business_response['display_phone'];
@@ -151,25 +151,19 @@ function query_api($term, $location) {
 		$rating_img_url_small=$business_response['rating_img_url_small'];
 		$url=$business_response['url'];
 		addRestaurant($id,$name,$phone,$address,$rating,$reservationURL,$reviewCount,$imageUrl,$city,$postal_code,$snippet_text,$state,$rating_img_url,$rating_img_url_small, $url);
-		
-		
-		$categories=$business_response['categories'];
-		foreach($categories as $category){
-			$c1=$category[0];
-			$c2=$category[1];
-			//echo $c1 . ' ' . $c2;
-			
-			$cid=categoryID($c1,$c2);
-			
-			echo $cid;
-			if($cid<0){
-				//category does not exist
-				addCategory($c1,$c2);
-				$cid=lastCategory();
+	*/
+		if ( is_array($business_response['reviews']) || 
+			 is_object($business_response['reviews']) ){
+			foreach($business_response['reviews'] as $review){
+				$id=$review['id'];
+				echo 'prepare: '. $review['user']['id'];
+				addReview($id, $review['rating'], $review['rating_image_url'], $review['rating_image_small_url'], $review['excerpt'], $review['time_created'], $review['user']['id'] ); 
+				addUser($review['user']['id'] , $review['user']['name'], '', '123456', $review['user']['image_url']);
+				echo 'added';
 			}
-			
-			addRC($id,$cid);
 		}
+
+
 	}
 	/*
     print sprintf(
@@ -189,5 +183,9 @@ function query_api($term, $location) {
  */
 $term = 'dinner';
 $location = 'Urbana, IL';
-query_api($term, $location);
+while ($OFFSET <200) {
+	query_api($term, $location);
+	$OFFSET = $OFFSET + 20;
+}
+
 ?>

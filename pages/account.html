@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>foodiePal</title>
+        <meta name="search Result" content="An interactive getting started guide for Brackets.">
+        <link rel="mediabox" href="style.css">
+        <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        
+        <script type="text/javascript" src="account.js"></script>
+        
+        
+        </head>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="http://foodiepal.web.engr.illinois.edu/">FoodiePal</a>
+
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="http://foodiepal.web.engr.illinois.edu/">Main</a></li>
+              </ul>
+             
+              
+              <!--<div id="oldUser" class="nav navbar-nav">
+                    <button type="button" class="btn btn-default navbar-btn" data-toggle="modal" data-target="#myModal">Sign in</button>
+                    <button type="button" class="btn btn-default navbar-btn"><a href="register.html">Register</a></button>
+              </div>-->
+              <ul class="nav navbar-nav" id="logout" style="margin-left: 5px">
+              		<button type="button" class="btn btn-default navbar-btn"> Log out</button>
+                	
+              </ul>
+              <ul class="nav navbar-nav">
+              		<li><a id="message">Hello There!</a></li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+    </div>
+    <div id="main" class="row">
+    	<div id="info" class="col-sm-10 col-sm-offset-1 row">
+        
+        	<div   class="col-sm-3"> 
+        		<img id="profile" width="250px" height="250px" />
+        		
+        		
+        		
+        	</div>
+        	 <div class="col-sm-7 ">
+        		<h2 >Personal Account&nbsp<small class="firstName"></small></h2>
+        		
+  			<div class="panel panel-default">
+	        		<div class="panel-heading">User Information</div>
+	        		
+	        		<div class="panel-body">
+	        			<div><p>First Name:&nbsp&nbsp&nbsp&nbsp<span class="firstName"></span></p></div>
+	        			<div><p>Last Name:&nbsp&nbsp&nbsp&nbsp<span id="lastName"></span></p></div>
+	        			<div><p>Email:&nbsp&nbsp&nbsp&nbsp<span id="email"></span></p></div>
+	        			
+	        		</div>
+	        	</div>
+        	
+        	</div>
+        	
+        </div>
+        <hr />
+        <div id="favorites" class="col-sm-10 col-sm-offset-1 row">
+        	<div id="panel">
+        
+        
+        		<h2>All My Rated Restaurant</h2>
+        		<div class="panel-group">
+            
+                
+        		</div>
+    		</div>
+    	</div>
+        
+        
+    </div>  
+    <!-- Modal
+	<div id="myModal" class="modal fade" role="dialog">
+	  <div class="modal-dialog">
+	
+
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h4 class="modal-title">Sign In</h4>
+	      </div>
+	      <div class="modal-body">
+	        <form id="signIn" role="form" action="../backEnd/processSignin.php" method="post" >
+		  <div class="form-group">
+		    <label for="email">Email address:</label>
+		    <input name="email" type="email" class="form-control" id="email">
+		  </div>
+		  <div class="form-group">
+		    <label for="pwd">Password:</label>
+		    <input  name="pwd" type="password" class="form-control" id="pwd">
+		  </div>
+		  <div class="checkbox">
+		    <label id="text"></label>
+		  </div>
+		  <button type="submit" class="btn btn-default" >Submit</button>
+		</form>
+
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	
+	  </div>
+	</div>-->
+    
+</body>    
+</html>

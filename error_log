@@ -1,0 +1,118 @@
+[06-Apr-2016 21:48:55 America/Chicago] PHP Warning:  require_once(lib/OAuth.php): failed to open stream: No such file or directory in /home/foodiepal/public_html/sample.php on line 22
+[06-Apr-2016 21:48:55 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'lib/OAuth.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/foodiepal/public_html/sample.php on line 22
+[06-Apr-2016 21:51:08 America/Chicago] PHP Fatal error:  Curl failed with error #400: {"error": {"text": "Signature was invalid", "id": "INVALID_SIGNATURE", "description": "Invalid signature. Expected signature base string: GET\u0026https%3A%2F%2Fapi.yelp.com%2Fv2%2Fsearch%2F\u0026limit%3D3%26location%3DSan%2520Francisco%252C%2520CA%26oauth_consumer_key%3DtC6J9T0YPuJNcGV2kMv_1A%26oauth_nonce%3Dfa3e26cc217a8c296d1015e267006ac3%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1459997468%26oauth_token%3Dv3Co_EwQ6D99ruSBU6LWGieJFkaBB2HI%26oauth_version%3D1.0%26term%3Ddinner"}} in /home/foodiepal/public_html/sample.php on line 93
+[06-Apr-2016 21:59:18 America/Chicago] PHP Fatal error:  Curl failed with error #400: {"error": {"field": "limit", "description": "Limit maximum is 20", "id": "INVALID_PARAMETER", "text": "One or more parameters are invalid in request"}} in /home/foodiepal/public_html/sample.php on line 93
+[06-Apr-2016 22:02:04 America/Chicago] PHP Fatal error:  Curl failed with error #400: {"error": {"field": "limit", "description": "Limit maximum is 20", "id": "INVALID_PARAMETER", "text": "One or more parameters are invalid in request"}} in /home/foodiepal/public_html/sample.php on line 93
+[06-Apr-2016 22:03:13 America/Chicago] PHP Fatal error:  Curl failed with error #400: {"error": {"field": "limit", "description": "Limit maximum is 20", "id": "INVALID_PARAMETER", "text": "One or more parameters are invalid in request"}} in /home/foodiepal/public_html/sample.php on line 93
+[06-Apr-2016 22:04:09 America/Chicago] PHP Fatal error:  Curl failed with error #400: {"error": {"field": "limit", "description": "Limit maximum is 20", "id": "INVALID_PARAMETER", "text": "One or more parameters are invalid in request"}} in /home/foodiepal/public_html/sample.php on line 93
+[06-Apr-2016 22:13:15 America/Chicago] PHP Fatal error:  Curl failed with error #400: {"error": {"field": "limit", "description": "Limit maximum is 20", "id": "INVALID_PARAMETER", "text": "One or more parameters are invalid in request"}} in /home/foodiepal/public_html/sample.php on line 93
+[08-Apr-2016 18:19:47 America/Chicago] PHP Fatal error:  Curl failed with error #400: {"error": {"field": "limit", "description": "Limit maximum is 20", "id": "INVALID_PARAMETER", "text": "One or more parameters are invalid in request"}} in /home/foodiepal/public_html/sample.php on line 93
+[08-Apr-2016 18:38:42 America/Chicago] PHP Fatal error:  Curl failed with error #400: {"error": {"text": "One or more parameters are missing in request", "id": "MISSING_PARAMETER", "field": "business_id"}} in /home/foodiepal/public_html/sample.php on line 94
+[08-Apr-2016 18:47:08 America/Chicago] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 18:51:10 America/Chicago] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 18:59:58 America/Chicago] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:00:43 America/Chicago] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:03 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:03 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:04 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:04 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:04 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:05 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:05 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:05 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:06 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:06 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:06 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:07 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:07 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:08 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:08 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:08 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:09 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:09 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:09 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:38:10 America/Chicago] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/foodiepal/public_html/backEnd/database.php on line 22
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:44:20 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:47:16 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 19:48:10 America/Chicago] PHP Parse error:  syntax error, unexpected '$categories' (T_VARIABLE) in /home/foodiepal/public_html/api.php on line 155
+[08-Apr-2016 21:10:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:10:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:10:56 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:10:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:10:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:10:57 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:10:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:10:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:10:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:10:58 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:10:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:10:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:10:59 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:11:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:11:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:11:00 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:11:01 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:11:01 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:11:01 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:11:02 America/Chicago] PHP Warning:  Invalid argument supplied for foreach() in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:17:14 America/Chicago] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/foodiepal/public_html/api_ur.php on line 155
+[08-Apr-2016 21:27:15 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home/foodiepal/public_html/backEnd/database.php on line 112
+[08-Apr-2016 21:28:38 America/Chicago] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/foodiepal/public_html/backEnd/database.php on line 50
+[08-Apr-2016 21:55:20 America/Chicago] PHP Fatal error:  Curl failed with error #400: {"error": {"text": "Signature was invalid", "id": "INVALID_SIGNATURE", "description": "Invalid signature. Expected signature base string: GET\u0026https%3A%2F%2Fapi.yelp.com%2Fv2%2Fbusiness%2Fintermezzo-caf%25C3%25A9-urbana-2\u0026oauth_consumer_key%3DtC6J9T0YPuJNcGV2kMv_1A%26oauth_nonce%3Da7359f3598d58e658e1849c3b3aace69%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1460170520%26oauth_token%3Dv3Co_EwQ6D99ruSBU6LWGieJFkaBB2HI%26oauth_version%3D1.0"}} in /home/foodiepal/public_html/api_ur.php on line 84
+[08-Apr-2016 22:07:20 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/foodiepal/public_html/backEnd/database.php on line 102
+[08-Apr-2016 22:07:20 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/foodiepal/public_html/backEnd/database.php on line 102
+[08-Apr-2016 22:08:57 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/foodiepal/public_html/backEnd/database.php on line 102
+[08-Apr-2016 22:08:57 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/foodiepal/public_html/backEnd/database.php on line 102
+[08-Apr-2016 22:10:32 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/foodiepal/public_html/backEnd/database.php on line 102
+[08-Apr-2016 22:10:32 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/foodiepal/public_html/backEnd/database.php on line 102
+[08-Apr-2016 22:12:36 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/foodiepal/public_html/backEnd/database.php on line 102
+[08-Apr-2016 22:12:36 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/foodiepal/public_html/backEnd/database.php on line 102
+[08-Apr-2016 22:12:38 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/foodiepal/public_html/backEnd/database.php on line 102
+[08-Apr-2016 22:12:38 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/foodiepal/public_html/backEnd/database.php on line 102
+[08-Apr-2016 22:16:58 America/Chicago] PHP Catchable fatal error:  Object of class mysqli could not be converted to string in /home/foodiepal/public_html/backEnd/database.php on line 103
+[08-Apr-2016 22:32:09 America/Chicago] PHP Fatal error:  Curl failed with error #400: {"error": {"text": "Signature was invalid", "id": "INVALID_SIGNATURE", "description": "Invalid signature. Expected signature base string: GET\u0026https%3A%2F%2Fapi.yelp.com%2Fv2%2Fbusiness%2Fintermezzo-caf%25C3%25A9-urbana-2\u0026oauth_consumer_key%3DtC6J9T0YPuJNcGV2kMv_1A%26oauth_nonce%3Ddad577fc3db02a26833ab57b713c23ff%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1460172729%26oauth_token%3Dv3Co_EwQ6D99ruSBU6LWGieJFkaBB2HI%26oauth_version%3D1.0"}} in /home/foodiepal/public_html/api_ur.php on line 84
+[09-Apr-2016 09:40:03 America/Chicago] PHP Fatal error:  Curl failed with error #400: {"error": {"text": "Signature was invalid", "id": "INVALID_SIGNATURE", "description": "Invalid signature. Expected signature base string: GET\u0026https%3A%2F%2Fapi.yelp.com%2Fv2%2Fbusiness%2Fintermezzo-caf%25C3%25A9-urbana-2\u0026oauth_consumer_key%3DtC6J9T0YPuJNcGV2kMv_1A%26oauth_nonce%3Dc41344ff0bbd67cac9c90f2b4b6c3710%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1460212803%26oauth_token%3Dv3Co_EwQ6D99ruSBU6LWGieJFkaBB2HI%26oauth_version%3D1.0"}} in /home/foodiepal/public_html/api_ur.php on line 84
+[09-Apr-2016 10:55:02 America/Chicago] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/foodiepal/public_html/login.php on line 28
+[09-Apr-2016 13:39:52 America/Chicago] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/foodiepal/public_html/backEnd/database.php on line 22
+[09-Apr-2016 13:39:54 America/Chicago] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/foodiepal/public_html/backEnd/database.php on line 22
+[09-Apr-2016 13:39:55 America/Chicago] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/foodiepal/public_html/backEnd/database.php on line 22
+[09-Apr-2016 13:41:37 America/Chicago] PHP Fatal error:  Call to undefined function addRC() in /home/foodiepal/public_html/api.php on line 169
+[09-Apr-2016 13:42:52 America/Chicago] PHP Fatal error:  Call to undefined function addRC() in /home/foodiepal/public_html/api.php on line 169

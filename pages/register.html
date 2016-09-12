@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>New User</title>
+    <meta content="Jiayu Chen" name="author" /><!-- <link href="hw1Style.css" rel="stylesheet" type="text/css"> --><!-- <link href="hw1styleHover.css" rel="stylesheet" type="text/css"> -->
+    <style type="text/css">#label1{text-align: left; width: auto}
+        #label2{text-align: left; width: auto}
+        #label3{text-align: left; width: auto}
+        fieldset{width:720px; margin-bottom: 10px} 
+        body{font-family:calibri; font-weight: bold}
+        h1{font-size: 38px}
+    </style>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="register.js"></script>
+</head>
+<body>
+<p><span style="font-size: 38px;">New User Re</span><span style="font-size: 38px;">gister here:</span></p>
+
+<form action="../backEnd/processRegister.php" enctype="multipart/form-data" id="datingForm" method="post">
+        <fieldset>
+            <legend>Your Face</legend>
+            <label for="photo">Your profile pic:</label>
+            <input type="file" id="photo" name="fileToUpload" > <br>
+            <label for="photo">Image Preview:</label>
+            <img id="preview" name="preview">
+        </fieldset></br>
+
+&nbsp;
+
+<fieldset><legend>Personal information</legend> <label for="firstname">first name*</label> <input id="firstname" name="firstname" placeholder="Your first name" required="" type="text" /><br />
+<label for="lastname">last name*</label><input id="lastname" name="lastname" placeholder="Your lastname" required="" type="text" /><br />
+<label for="password">Password* </label> <input id="password" name="password" placeholder="password" required="" type="text" /><br />
+<label for="password_c">Confirm password* </label> <input id="password_c" name="password_c" placeholder="repeat your password" required="" type="text" /><br /></fieldset>
+&nbsp;
+
+
+<fieldset><legend>Your Contact Information</legend> <label for="email">Email:</label> <input id="email" name="email" type="email" /><br />
+<label for="mobile">Mobile:</label> <input id="mobile" name="mobile" type="tel" /><br />
+<label for="address">Address:</label><textarea id="address" name="address"></textarea><br />
+<br />
+<input type="submit" value="submit!" /></form>
+</html>

@@ -1,8 +1,7 @@
 #!/usr/bin/php
 <?php
-include 'backEnd/database.php';
+
 /**
- * https://github.com/Yelp/yelp-api/blob/master/v2/php/sample.php
  * Yelp API v2.0 code sample.
  *
  * This program demonstrates the capability of the Yelp API version 2.0
@@ -19,22 +18,28 @@ include 'backEnd/database.php';
  * Sample usage of the program:
  * `php sample.php --term="bars" --location="San Francisco, CA"`
  */
+
 // Enter the path that the oauth library is in relation to the php file
 require_once('lib/OAuth.php');
+
 // Set your OAuth credentials here  
 // These credentials can be obtained from the 'Manage API Access' page in the
 // developers documentation (http://www.yelp.com/developers)
-$CONSUMER_KEY = 'tC6J9T0YPuJNcGV2kMv_1A';
-$CONSUMER_SECRET = 'WQluXcNi0gG2dHbwUDRDiAvm4jc';
-$TOKEN = 'v3Co_EwQ6D99ruSBU6LWGieJFkaBB2HI';
-$TOKEN_SECRET = 'dxWOus0fJRRPYlHsQ94lc_g-dsA';
+$CONSUMER_KEY = "tC6J9T0YPuJNcGV2kMv_1A";
+$CONSUMER_SECRET = "WQluXcNi0gG2dHbwUDRDiAvm4jc";
+$TOKEN = "v3Co_EwQ6D99ruSBU6LWGieJFkaBB2HI";
+$TOKEN_SECRET = "dxWOus0fJRRPYlHsQ94lc_g-dsA";
+
+
 $API_HOST = 'api.yelp.com';
 $DEFAULT_TERM = 'dinner';
 $DEFAULT_LOCATION = 'San Francisco, CA';
 $SEARCH_LIMIT = 20;
 $SEARCH_PATH = '/v2/search/';
 $BUSINESS_PATH = '/v2/business/';
-$OFFSET = 220;
+$OFFSET = 55;
+
+
 /** 
  * Makes a request to the Yelp API and returns the response
  * 
@@ -44,12 +49,16 @@ $OFFSET = 220;
  */
 function request($host, $path) {
     $unsigned_url = "https://" . $host . $path;
+
     // Token object built using the OAuth library
     $token = new OAuthToken($GLOBALS['TOKEN'], $GLOBALS['TOKEN_SECRET']);
+
     // Consumer object built using the OAuth library
     $consumer = new OAuthConsumer($GLOBALS['CONSUMER_KEY'], $GLOBALS['CONSUMER_SECRET']);
+
     // Yelp uses HMAC SHA1 encoding
     $signature_method = new OAuthSignatureMethod_HMAC_SHA1();
+
     $oauthrequest = OAuthRequest::from_consumer_and_token(
         $consumer, 
         $token, 
@@ -63,7 +72,6 @@ function request($host, $path) {
     // Get the signed URL
     $signed_url = $oauthrequest->to_url();
     
-    //print "$signed_url\n";
     // Send Yelp API Call
     try {
         $ch = curl_init($signed_url);
@@ -72,11 +80,13 @@ function request($host, $path) {
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         curl_setopt($ch, CURLOPT_HEADER, 0);
         $data = curl_exec($ch);
+
         if (FALSE === $data)
             throw new Exception(curl_error($ch), curl_errno($ch));
         $http_status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         if (200 != $http_status)
             throw new Exception($data, $http_status);
+
         curl_close($ch);
     } catch(Exception $e) {
         trigger_error(sprintf(
@@ -87,6 +97,7 @@ function request($host, $path) {
     
     return $data;
 }
+
 /**
  * Query the Search API by a search term and location 
  * 
@@ -105,6 +116,7 @@ function search($term, $location) {
     
     return request($GLOBALS['API_HOST'], $search_path);
 }
+
 /**
  * Query the Business API by business_id
  * 
@@ -116,6 +128,7 @@ function get_business($business_id) {
     
     return request($GLOBALS['API_HOST'], $business_path);
 }
+
 /**
  * Queries the API by the input values from the user 
  * 
@@ -124,54 +137,8 @@ function get_business($business_id) {
  */
 function query_api($term, $location) {     
     $response = json_decode(search($term, $location));
-	
-	foreach($response->businesses as $business){
-	
-		$business_id = $business->id;
-		$business_response = json_decode(get_business($business_id),true);
-		
-
-		$id=$business_response['id'];
-		$name=$business_response['name'];
-		$phone=$business_response['display_phone'];
-		$address=$business_response['location']['address'][0];
-		$rating=$business_response['rating'];
-		#$businessHours=$business_response['']
-		#$categories
-		$reservationURL=$business_response['reservation_url'];
-		$reviewCount=$business_response['review_count'];
-		#$price
-		$imageUrl=$business_response['image_url'];
-		$city=$business_response['location']['city'];
-		$postal_code=$business_response['location']['postal_code'];
-		$snippet_text=$business_response['snippet_text'];
-		
-		$state=$business_response['location']['state_code'];
-		$rating_img_url=$business_response['rating_img_url'];
-		$rating_img_url_small=$business_response['rating_img_url_small'];
-		$url=$business_response['url'];
-		addRestaurant($id,$name,$phone,$address,$rating,$reservationURL,$reviewCount,$imageUrl,$city,$postal_code,$snippet_text,$state,$rating_img_url,$rating_img_url_small, $url);
-		
-		
-		$categories=$business_response['categories'];
-		foreach($categories as $category){
-			$c1=$category[0];
-			$c2=$category[1];
-			//echo $c1 . ' ' . $c2;
-			
-			$cid=categoryID($c1,$c2);
-			
-			echo $cid;
-			if($cid<0){
-				//category does not exist
-				addCategory($c1,$c2);
-				$cid=lastCategory();
-			}
-			
-			addRC($id,$cid);
-		}
-	}
-	/*
+    $business_id = $response->businesses[0]->id;
+    
     print sprintf(
         "%d businesses found, querying business info for the top result \"%s\"\n\n",         
         count($response->businesses),
@@ -182,12 +149,21 @@ function query_api($term, $location) {
     
     print sprintf("Result for business \"%s\" found:\n", $business_id);
     print "$response\n";
-	*/
 }
+
 /**
  * User input is handled here 
  */
-$term = 'dinner';
-$location = 'Urbana, IL';
+$longopts  = array(
+    "term::",
+    "location::",
+);
+    
+$options = getopt("", $longopts);
+
+$term = 'dinner'; //$options['term'] ?: '';
+$location = 'Urbana, IL';//$options['location'] ?: '';
+
 query_api($term, $location);
+
 ?>

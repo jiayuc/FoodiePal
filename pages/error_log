@@ -1,0 +1,4 @@
+[16-Mar-2016 23:11:25 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/foodiepal/public_html/frontEnd/temp/pages/addRest.php on line 38
+[16-Mar-2016 23:37:32 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/foodiepal/public_html/frontEnd/temp/pages/addRest.php on line 38
+[17-Mar-2016 09:50:07 America/Chicago] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/foodiepal/public_html/frontEnd/temp/pages/addRest.php on line 32
+[17-Mar-2016 09:51:08 America/Chicago] PHP Parse error:  syntax error, unexpected ''name'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/foodiepal/public_html/frontEnd/temp/pages/addRest.php on line 31

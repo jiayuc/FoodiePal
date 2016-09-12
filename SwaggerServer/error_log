@@ -1,0 +1,2 @@
+[22-Apr-2016 00:38:24 America/Chicago] PHP Warning:  require_once(/home/foodiepal/public_html/SwaggerServer/vendor/autoload.php): failed to open stream: No such file or directory in /home/foodiepal/public_html/SwaggerServer/index.php on line 7
+[22-Apr-2016 00:38:24 America/Chicago] PHP Fatal error:  require_once(): Failed opening required '/home/foodiepal/public_html/SwaggerServer/vendor/autoload.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/foodiepal/public_html/SwaggerServer/index.php on line 7

@@ -1,0 +1,76 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Insert form</title>
+<link type="text/css" media="all" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<div class="display">
+
+<form action="addRest.php" method="post" name="insertform">
+<p>
+  <label for="id" id="id"> Restaurant id: </label>
+  <input type="text" name="id" required placeholder="Enter your id" id="inputid"/>
+</p>
+<p>
+  <label  for="name" id="name"> Restaurant name : </label>
+  <input type="text" name="name" placeholder="Enter your name" id="inputid" />
+</p>
+<p>
+  <label for="phone" id="phone"> Phone number : </label>
+  <input type="text" name="phone" placeholder="Enter your phone number" id="inputid" />
+</p>
+<p>
+  <label for="address" id="address"> Address : </label>
+  <input type="text" name="address" placeholder="Enter your address" id="inputid" />
+</p>
+<p>
+  <label for="categories" id="categories"> Categories : </label>
+  <input type="text" name="categories" placeholder="Enter your categories" id="inputid" />
+</p>
+
+<p>
+  <label for="reviewCount" id="reviewCount"> Review Count : </label>
+  <input type="text" name="reviewCount" placeholder="Enter your reviewCount" id="inputid" />
+</p>
+<p>
+  <label for="imageUrl" id="imageUrl"> ImageURL : </label>
+  <input type="text" name="imageUrl" placeholder="Enter your imageUrl" id="inputid" />
+</p>
+<p>
+  <label for="city" id="city"> City : </label>
+  <input type="text" name="imageUrl" placeholder="Enter your city" id="inputid" />
+</p>
+<p>
+  <label for="postal_code" id="postal_code"> City : </label>
+  <input type="text" name="postal_code" placeholder="Enter your postal_code" id="inputid" />
+</p>
+<p>
+  <label for="snippet_text" id="snippet_text"> Reviews : </label>
+  <input type="text" name="snippet_text" placeholder="Enter your reviews" id="inputid" />
+</p>
+<p>
+  <label for="state" id="state"> State : </label>
+  <input type="text" name="state" placeholder="Enter your state" id="inputid" />
+</p>
+<p>
+  <input type="submit" name="send" value="Submit" id="inputid"  />
+</p>
+
+</form>
+
+<form action="addRest.php" method="post" name="deleteform">
+<p>
+  <label for="deleteid" id="deleteid"> Search then delete : </label>
+  <input type="text" name="deleteid" required placeholder="Enter your restaurant id" id="inputid" />
+</p>
+<p>
+  <input type="submit" name="send" value="Delete" id="inputid"  />
+</p>
+</form>
+</div>
+<?php include('view.php'); ?>
+</body>
+</html>
