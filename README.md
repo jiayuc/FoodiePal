@@ -2,6 +2,9 @@
 Our website FoodiePal is a “local yelp” website that provides information about Restaurants located at Urbana-Champaign. Users can perform search by restaurant name or category name, review restaurants and get personalized recommendations based on past reviews. By viewing ratings and reviews as well as giving their preferences, people will be able to find just the business that they are looking for powered by our intelligent recommandation system. 
 
 ## [demo snippet]
+- Note the recommandation feature requires the R script to be running on a server to process the user request. We used our own vm to run as server for demo purpose but the recommand button does not respond now since we cannot keep the vm open at all time. To see what the recommandation system looks like, check out our youtube demo: 
+
+[ youtube demo ] : ( https://www.youtube.com/watch?v=TcmCx8wilck)
 
 ![mainPage](/snapShots/mainPage.JPG?raw=true)
 
