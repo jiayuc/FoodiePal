@@ -1,5 +1,5 @@
 ## [ Overview ]
-Our website FoodiePal is a “local yelp” website that provides information about Restaurants located at Urbana-Champaign. Users can perform search by restaurant name or category name, review restaurants and get personalized recommendations based on past reviews. By viewing ratings and reviews as well as giving their preferences, people will be able to find just the business that they are looking for powered by our intelligent recommandation system. 
+Our website [FoodiePal](http://foodiepal.web.engr.illinois.edu) is a “local yelp” website that provides information about Restaurants located at Urbana-Champaign. Users can perform search by restaurant name or category name, review restaurants and get personalized recommendations based on past reviews. By viewing ratings and reviews as well as giving their preferences, people will be able to find just the business that they are looking for powered by our intelligent recommandation system. 
 
 ## [demo snippet]
 - Note the recommandation feature requires the R script to be running on a server to process the user request. We used our own vm to run as server for demo purpose but the recommand button does not respond now since we cannot keep the vm open at all time. To see what the recommandation system looks like, check out our youtube demo: 
@@ -51,10 +51,10 @@ Divided by total # of users whose reviews involved both categories i& j
 
 *we adopt the term covariance and correlation loosely here because we didn’t standardize it
 Below is a visual representation of the distance matrix, 
-![](/snapShots/ml2.JPG?raw=true)
+![](/snapShots/ml2.jpg?raw=true)
 
 Convert this covariance matrix into distance matrix: each entry = (9 - each entry)/2. We then can perform k-median (more suitable than k-mean in this case) to cluster categories into 9 classes. Just for fun, we attached the hierarchy clustering result using the distance matrix. We used result from k-median because it’s hard to pick k for hierarchy clustering and it is ambiguous where the cluster broader is.
- ![](/snapShots/ml3.JPG?raw=true)
+ ![](/snapShots/ml3.jpg?raw=true)
 
 ### - Regression to get bias matrix of User u
 We mapped categories in our database to 109 categories in above dataset. Then given a new user’s review history, based on it we can initialize 109-D vector, each entry representing user’s rating bias comparing to all users’ reviews for this category. We perform regression referring to distance matrix X to get full vector of it (since the original one is sparse based on few reviews). We can then calculate the scores based on category ratings for each of 200 + restaurants and output the top 20 ones.
